@@ -1,12 +1,12 @@
-import { IUser } from "../../../interfaces/auth";
+import { IUser } from "../../interfaces/auth";
 import { AuthState } from "./AuthProvider";
 
 type AuthActionType = 
 | {type: '[Auth] - Login Success', payload: IUser}
 | {type: '[Auth] - Set Error', payload: string}
-| {type: '[Auth] - Logout', payload: string}
-| {type: '[Auth] - Load Login', payload: string}
-| {type: '[Auth] - Clear Error', payload: string}
+| {type: '[Auth] - Logout'}
+| {type: '[Auth] - Load Login'}
+| {type: '[Auth] - Clear Error'}
 
 
 
