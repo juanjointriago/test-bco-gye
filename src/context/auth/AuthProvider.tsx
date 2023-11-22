@@ -85,6 +85,7 @@ export const AuthProvider: FC<{ children: ReactNode }> = ({ children }) => {
         window.location.reload();
         window.location.href = '/auth/login';
     };
+    
     const revalidateToken = async () => {
         try {
             const refreshToken = localStorage.getItem('refreshToken');

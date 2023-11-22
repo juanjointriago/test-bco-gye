@@ -14,7 +14,6 @@ export const App = () => {
     withNormalizeCSS
     theme={theme}
     >
-
       <AuthProvider>
         <ProductProvider>
           <CartProvider>

@@ -13,14 +13,6 @@ export const Layout: FC = () => {
           {
             label: 'Todos los productos',
             link: '/products',
-          },
-          {
-            label: 'Hombre',
-            link: '/products/man'
-          },
-          {
-            label: 'Mujer',
-            link: '/products/women'
           }
         ]}
       />
